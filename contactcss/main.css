@@ -1,0 +1,166 @@
+body
+    {
+        background-color:#eae2d9;
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar
+    {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    #navbar::before
+    {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity: 0.4; 
+    }
+    #logo
+    {
+        margin: 2px 2px;
+    }
+    #logo img
+    {
+        margin: 3px 11px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1.5px solid black;
+    }
+    #navbar ul
+    {
+        display: flex;
+        margin-left: -23px;
+    }
+    #navbar ul li
+    {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #navbar ul li a
+    {
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        color:brown;
+        display: block;
+        padding: 3px 22px;
+        border-radius:20px;
+        text-decoration:none;
+    }
+    #navbar ul li a:hover
+    {
+        background-color: white;
+    }
+    #main::before
+    {
+        content: "";
+        background: url('contact.jpg') no-repeat center center/cover;
+        height: 460px;
+        width: 100%; 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.6;   
+    }
+    .h-primary
+    {
+        text-align: center;
+        font-size: 2.8rem;
+        padding: 12px;
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main h1
+    {
+        position: relative;
+        top: 150px;
+    }
+    #form form
+    {
+        display: flex;
+        width: 50%;
+        margin: auto;
+        flex-direction: column;
+    }
+    #form
+    {
+        position: relative;
+        top: 250px;
+    }
+    #form input
+    {
+        border: 2px solid #a89797 ;
+        border-radius: 28px;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+    #form input::placeholder
+    {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #form textarea::placeholder
+    {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #form textarea
+    {
+        border: 2px solid #a89797;
+        border-radius: 28px;
+        margin: 20px 0px;
+        padding: 20px;
+    }
+    #form #submit
+    {
+        width: 20%;
+        margin: auto;
+        font-size: 1.4rem;
+        color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #form #submit:hover
+    {
+        border-color: black;
+        background-color: black;
+    }
+    .center
+    {
+        text-align: center;
+    }
+    footer #socialmedia a img
+    {
+        display: block;
+        height: 70px;
+        border-radius: 50%;
+    }
+    footer #socialmedia a:hover
+    {
+       background-color: black;
+    }
+    footer #socialmedia a
+    {
+        border-radius: 50%;
+    }
+    footer
+    {
+        width: 100%;
+        position: relative;
+        top: 300px;
+        margin-top: 0px;
+    }
+    #socialmedia
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }

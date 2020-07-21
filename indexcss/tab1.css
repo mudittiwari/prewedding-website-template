@@ -1,0 +1,67 @@
+#navbar
+    {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+#navbar ul
+    {
+        display: flex;
+        margin-left: -23px;
+    }
+#navbar::before
+    {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity: 0.4; 
+    }
+footer 
+{
+    width: 100%;
+    position: relative;
+    top: 46vh;
+    margin-top: 0px;
+}
+#home h1 
+{
+    font-size: 4rem;
+    margin-top: 198px;
+
+}
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('home.jpg') no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+#home
+{
+    height: 25px;
+}
+#home p {
+
+    margin-top: 0px;
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: brown;
+    font-style: italic;
+    text-decoration: underline;
+}
+#navbar ul li
+    {
+        list-style: none;
+        font-size: 1.3rem;
+    }

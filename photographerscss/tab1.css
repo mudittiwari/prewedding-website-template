@@ -1,0 +1,30 @@
+#navbar
+    {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+#navbar ul
+    {
+        display: flex;
+        margin-left: -23px;
+    }
+#navbar::before
+    {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity: 0.1; 
+    }
+footer 
+{
+    width: 100%;
+    position: relative;
+    top: 46vh;
+    margin-top: 0px;
+}

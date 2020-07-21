@@ -1,0 +1,267 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    padding:0px;
+    background-color: #eae2d9;
+}
+/*navigation*/
+#navbar
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.1; 
+}
+#logo
+{
+    margin: 2px 2px;
+}
+#logo img
+{
+    margin: 3px 11px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+#navbar ul
+{
+    display: flex;
+    margin-left: 18px;
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a
+{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color:brown;
+    display: block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration:none;
+}
+#navbar ul li a:hover
+{
+    background-color: white;
+}
+/*photographers section*/
+.h-primary
+    {
+        text-align: center;
+        font-size: 2.8rem;
+        padding: 12px;
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .slider
+        {
+            border-radius: 28px;
+            overflow: hidden;
+            width: 100%;
+            margin-top: 33px;
+            margin-bottom: 33px;
+        }
+        figure
+        {
+            position: relative;
+            display: flex;
+            width: 500%;
+            animation-name: mudit;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
+        }
+        .slide
+        {
+            width: 20%;
+        }
+        .slide img
+        {
+            width: 100%;
+        }
+        @keyframes mudit
+        {
+            0%
+            {
+                left: 0%;
+            }
+            10%
+            {
+                left: 0%;
+            }
+            12%
+            {
+                left: -100%;
+            }
+            22%
+            {
+                left:-100%;
+            }
+            24%
+            {
+                left: -200%;
+            }
+            34%
+            {
+                left:-200%;
+            }
+            36%
+            {
+                left:-300%;
+            }
+            46%
+            {
+                left: -300%;
+            }
+            48%
+            {
+                left: -400%;
+            }
+            58%
+            {
+                left: -400%;
+            }
+            60%
+            {
+                left:-300%;
+            }
+            70%
+            {
+                left:-300%;
+            }
+            72%
+            {
+                left:-200%;
+            }
+            82%
+            {
+                left:-200%;
+            }
+            84%
+            {
+                left:-100%;
+            }
+            94%
+            {
+                left:-100%;
+            }
+            96%
+            {
+                left:0%;
+            }
+        }
+    .names
+    {
+        text-decoration: none;
+        color: brown;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+        #main
+        {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+    #buttons
+    {
+        display: flex;
+        width:85%;
+        margin: auto;
+        height: 60px;
+        flex-direction: column;
+    }
+    #buttons #b1
+    {
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+        position: absolute;
+        align-self: flex-start;
+        margin: 50px 0px;
+        padding: 10px 0px;
+        border: 1px solid black;
+        color: red;
+        text-align: center;
+    }
+    #buttons #b2
+    {
+        text-align: center;
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 50px 0px;
+        padding: 10px 0px;
+        position: absolute;
+        align-self:flex-end;
+        border: 1px solid black;
+        color: red;
+    }
+    #b1:hover
+    {
+        background-color: black;
+    }
+    #b2:hover
+    {
+        background-color: black;
+    }
+     footer #socialmedia a img
+    {
+        display: block;
+        height: 70px;
+        border-radius: 50%;
+    }
+    footer #socialmedia a:hover
+    {
+       background-color: black;
+    }
+    footer #socialmedia a
+    {
+        border-radius: 50%;
+    }
+    footer
+    {
+        width: 100%;
+        position: relative;
+        top: 15vh;
+        margin-top: 0px;
+    }
+    #socialmedia
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .center
+    {
+        text-align: center;
+    }
+    #phone
+    {
+        display:flex; 
+        flex-direction:column;
+        width: 26%;
+    }

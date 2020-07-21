@@ -1,0 +1,170 @@
+body
+    {
+        background-color:#eae2d9;
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar
+    {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    #navbar::before
+    {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity: 0.4; 
+    }
+    #logo
+    {
+        margin: 2px 2px;
+    }
+    #logo img
+    {
+        margin: 3px 11px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1.5px solid black;
+    }
+    #navbar ul
+    {
+        display: flex;
+        margin-left: -23px;
+    }
+    #navbar ul li
+    {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #navbar ul li a
+    {
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+        color:brown;
+        display: block;
+        padding: 3px 22px;
+        border-radius:20px;
+        text-decoration:none;
+    }
+    #navbar ul li a:hover
+    {
+        background-color: white;
+    }
+    #background::before
+    {
+        content: "";
+        background: url('aboutus.jpg') no-repeat center center/cover;
+        width: 100%;
+        height: 460px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    #main
+    {
+        position: relative;
+        top: 400px;
+    }
+    #main #content
+    {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        color: brown;
+        font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 20px 30px;
+        font-weight: bold;
+    }
+    .h-primary
+    {
+        font-size: 2.9rem;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: brown;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #team
+    {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .name
+    {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+    #nimit img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #mudit img
+    {
+        width: 100%;
+        height: 100%;
+    }
+   .center
+   {
+       text-align: center;
+       color: brown;
+   }
+   #mudit 
+{
+    border-radius: 35px;
+    border: 2px solid #80898a;
+    overflow: hidden;
+}
+#nimit
+{
+    border-radius: 35px;
+    border: 2px solid #80898a;
+    overflow: hidden;
+}
+.name h3
+{
+    margin-bottom: -12px;
+}
+footer #socialmedia a img
+    {
+        display: block;
+        height: 70px;
+        border-radius: 50%;
+    }
+    footer #socialmedia a:hover
+    {
+       background-color: black;
+    }
+    footer #socialmedia a
+    {
+        border-radius: 50%;
+    }
+    footer
+    {
+        width: 100%;
+        position: relative;
+        top: 450px;
+        margin-top: 0px;
+    }
+    #socialmedia
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }

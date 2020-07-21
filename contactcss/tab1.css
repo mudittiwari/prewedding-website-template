@@ -1,0 +1,16 @@
+#form #submit {
+
+    width: 40%;
+    margin: auto;
+    font-size: 1.4rem;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+footer
+    {
+        width: 100%;
+        position: relative;
+        top: 30vh;
+        margin-top: 0px;
+    }

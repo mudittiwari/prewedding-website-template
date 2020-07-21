@@ -1,0 +1,49 @@
+#background::before {
+    content: "";
+    background: url('aboutus.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 266px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+#main #content {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: brown;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 30px;
+    font-weight: bold;
+    position: relative;
+    top: -200px;
+}
+.h-primary {
+    font-size: 2.9rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
+    top: -250px;
+}
+#team
+{
+    position: relative;
+    top: -225px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+footer {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    margin-top: 0px;
+}
